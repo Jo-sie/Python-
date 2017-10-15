@@ -1,3 +1,7 @@
+''' 做为 Apple Store App 独立开发者，你要搞限时促销，为你的应用生成激活码（或者优惠券）， 使用 Python 如何生成 200 个激活码（或者优惠券）？
+
+笔记_: http://liam0205.me/2015/05/07/generator-of-invitation-code-in-python/ '''
+
 import random, string
 
 class LengthError(ValueError):
